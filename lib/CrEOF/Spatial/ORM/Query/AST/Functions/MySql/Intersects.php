@@ -37,7 +37,7 @@ class Intersects extends AbstractSpatialDQLFunction
 {
     protected $platforms = array('mysql');
 
-    protected $functionName = 'Intersects';
+    protected $functionName = 'ST_Intersects';
 
     protected $minGeomExpr = 2;
 

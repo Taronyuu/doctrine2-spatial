@@ -35,7 +35,7 @@ class LineString extends AbstractSpatialDQLFunction
 {
     protected $platforms = array('mysql');
 
-    protected $functionName = 'LineString';
+    protected $functionName = 'ST_LineString';
 
     protected $minGeomExpr = 2;
 

@@ -26,14 +26,14 @@ use CrEOF\Spatial\ORM\Query\AST\Functions\AbstractSpatialDQLFunction;
 /**
  * PointFromWKB function
  *
- * @author  
- * @license 
+ * @author
+ * @license
  */
 class PointFromWKB extends AbstractSpatialDQLFunction
 {
     protected $platforms = array('mysql');
 
-    protected $functionName = 'PointFromWKB';
+    protected $functionName = 'ST_PointFromWKB';
 
     protected $minGeomExpr = 1;
 

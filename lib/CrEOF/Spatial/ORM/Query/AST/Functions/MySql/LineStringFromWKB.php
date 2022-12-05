@@ -27,14 +27,14 @@ use CrEOF\Spatial\ORM\Query\AST\Functions\AbstractSpatialDQLFunction;
 /**
  * LineStringFromWKB function
  *
- * @author  
- * @license 
+ * @author
+ * @license
  */
 class LineStringFromWKB extends AbstractSpatialDQLFunction
 {
     protected $platforms = array('mysql');
 
-    protected $functionName = 'LineStringFromWKB';
+    protected $functionName = 'ST_LineStringFromWKB';
 
     protected $minGeomExpr = 1;
 

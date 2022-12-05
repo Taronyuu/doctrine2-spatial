@@ -35,7 +35,7 @@ class GLength extends AbstractSpatialDQLFunction
 {
     protected $platforms = array('mysql');
 
-    protected $functionName = 'GLength';
+    protected $functionName = 'ST_GLength';
 
     protected $minGeomExpr = 1;
 

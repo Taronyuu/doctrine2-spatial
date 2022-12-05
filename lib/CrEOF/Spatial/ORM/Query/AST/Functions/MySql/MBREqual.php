@@ -35,7 +35,7 @@ class MBREqual extends AbstractSpatialDQLFunction
 {
     protected $platforms = array('mysql');
 
-    protected $functionName = 'MBREqual';
+    protected $functionName = 'MBREquals';
 
     protected $minGeomExpr = 2;
 
